@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Reveal } from "./Reveal";
 
 const stats = [
-  { k: "12+", v: "Years experience" },
-  { k: "10K+", v: "Successful moves" },
-  { k: "500+", v: "Cities covered" },
+  { k: "4+", v: "Years experience" },
+  { k: "2K+", v: "Successful moves" },
+  { k: "100+", v: "Cities covered" },
   { k: "98%", v: "Happy customers" },
 ];
 
@@ -31,7 +31,7 @@ export function About() {
           <div className="lg:col-span-7 space-y-6 text-base md:text-lg text-muted-foreground leading-relaxed">
             <Reveal delay={0.1}>
               <p>
-                Shiva Shankar Packers is a customer-focused relocation company
+                Siva Shankar Packers is a customer-focused relocation company
                 built on trust, care and decades of hands-on logistics
                 experience. From a single studio apartment to full corporate
                 offices, we treat every move with the same precision and respect

@@ -35,7 +35,7 @@ export function Footer() {
                 S
               </div>
               <div className="font-display font-bold text-lg">
-                Shiva Shankar Packers
+                Siva Shankar Packers
               </div>
             </div>
             <p className="mt-5 text-background/60 max-w-sm leading-relaxed">

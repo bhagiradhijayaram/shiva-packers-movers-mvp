@@ -34,7 +34,7 @@ export function Hero() {
             className="inline-flex items-center gap-2 rounded-full border border-border bg-background/60 backdrop-blur px-3.5 py-1.5 text-xs font-medium text-muted-foreground"
           >
             <span className="flex h-1.5 w-1.5 rounded-full bg-foreground" />
-            Trusted by 10,000+ families & businesses
+            Trusted by 2,000+ families & businesses
           </motion.div>
 
           <motion.h1
@@ -101,12 +101,12 @@ export function Hero() {
                 />
               ))}
               <span className="ml-2 font-medium text-foreground">4.9/5</span>
-              <span>· 2,400+ reviews</span>
+              <span>· 1,000+ reviews</span>
             </div>
             <div className="h-4 w-px bg-border" />
             <div>
-              <span className="font-semibold text-foreground">12+ years</span>{" "}
-              in logistics
+              <span className="font-semibold text-foreground">4+ years</span> in
+              logistics
             </div>
           </motion.div>
         </div>
@@ -160,8 +160,8 @@ export function Hero() {
 
               <div className="grid grid-cols-3 gap-3 text-center">
                 {[
-                  { k: "10K+", v: "Moves" },
-                  { k: "500+", v: "Cities" },
+                  { k: "2K+", v: "Moves" },
+                  { k: "100+", v: "Cities" },
                   { k: "24/7", v: "Support" },
                 ].map((s) => (
                   <div
